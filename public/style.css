@@ -1,0 +1,72 @@
+body {
+width: 1440px;
+height: 768px;
+
+background: linear-gradient(180deg, #0837B0 0%, #021E66 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main-block {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.main-block-counter {
+    padding-top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 176px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.buttons {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.button-minus {
+width: 65px;
+height: 65px;
+padding: 12px;
+background: #E7AA10;
+border-radius: 4px;
+border: none;
+}
+.button-plus {
+background:  #089C20;
+width: 65px;
+height: 65px;
+padding: 12px;
+border-radius: 4px;
+border: none;
+}
+.button-reset {
+width: 65px;
+height: 65px;
+padding: 12px;
+background: #CF1C1C;
+border-radius: 4px;
+border: none;
+}
+.button-cover {
+    margin: 20px;
+    width: 65px;
+    height: 65px;
+}
